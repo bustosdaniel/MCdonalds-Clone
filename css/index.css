@@ -81,7 +81,7 @@ a {
   grid-template-rows: repeat(2, 1fr);
   padding: 40px 101.227px 80px;
   gap: 35px;
-  margin: 0 50px 25px;
+  margin: 0 50px 0;
   justify-content: space-around;
 }
 .section-cards figure img {
@@ -118,9 +118,50 @@ a {
   background-color: #ffc72c;
   font-size: 15px;
   font-weight: 200;
+  cursor: pointer;
 }
 button.btn-info {
   margin-top: 5px;
   width: 110px;
   height: 50px;
+  cursor: pointer;
+}
+.section-app-ctn {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffc72c;
+}
+.section-app-image figure img {
+  display: flex;
+  width: 210px;
+  padding: 25px;
+  background-color: #ffc72c;
+}
+.section-app-image {
+  display: flex;
+  text-align: start;
+  background-color: #ffc72c;
+}
+.section-app-info {
+  margin: 50px 0 50px -25px;
+  background-color: #ffc72c;
+}
+.section-app-ctn button {
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  margin: 50px 50px 50px 0;
+  align-items: center;
+  cursor: pointer;
+}
+.section-app-info h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+  background-color: #ffc72c;
+}
+.section-app-info p {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #ffc72c;
 }
