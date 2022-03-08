@@ -128,7 +128,7 @@ button.btn-info {
 }
 .section-app-ctn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #ffc72c;
 }
 .section-app-image figure img {
@@ -147,21 +147,93 @@ button.btn-info {
   background-color: #ffc72c;
 }
 .section-app-ctn button {
-  width: 150px;
+  width: 170px;
   height: 45px;
   border: none;
   border-radius: 5px;
-  margin: 50px 50px 50px 0;
-  align-items: center;
+  margin: 50px 50px 50px 50px;
+  justify-content: space-between;
   cursor: pointer;
 }
 .section-app-info h1 {
-  font-size: 32px;
+  font-size: 38px;
   margin-bottom: 5px;
   background-color: #ffc72c;
 }
 .section-app-info p {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 200;
   background-color: #ffc72c;
+}
+.footer {
+  height: 100px;
+}
+.footer-ctn {
+  display: flex;
+  margin-top: 90px;
+  margin-left: 115px;
+  margin-right: 115px;
+  border-bottom: 2px solid lightgrey;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.footer-div-ctn ul {
+  display: flex;
+}
+.footer-ctn li {
+  list-style: none;
+  margin: 0 15px;
+}
+.footer-list a img {
+  width: 25px;
+}
+.footer-ctn-appstore {
+  display: flex;
+  margin-left: 75px;
+}
+.footer-appstore ul {
+  display: flex;
+}
+.footer-appstore a img {
+  width: 125px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.footer-list-img-app img {
+  margin: 0 0 0 50px;
+  height: 40px;
+}
+.footer-info-ctn {
+  display: flex;
+  width: 75%;
+  margin: 25px 133px 0 162px;
+  justify-content: space-between;
+}
+.footer-list-info li {
+  margin: 10px 15px 30px;
+}
+.footer-list-info li:hover {
+  color: #1d1c1c;
+}
+.footer-list-info ul {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  color: lightgray;
+}
+.footer-img-ctn {
+  display: flex;
+  justify-content: end;
+}
+.footer-img img {
+  display: flex;
+  width: 50px;
+  align-items: center;
+}
+.footer-img-ctn p {
+  display: flex;
+  margin-top: 10px;
+  font-size: 15px;
+  color: lightgray;
 }
